@@ -29,13 +29,13 @@ animateposition: [-3,10,20,0], [-5,5,25,0.1], [-3,0,20,0.2], [-3,10,20,0.3], [-5
 id:RotatingLaserRight
 lookupmethod:Contains
 track:RightLaser
-scale: [0.05, 0.5, 50]
+
 
 0:Environment
 id:RotatingLaserLeft
 lookupmethod:Contains
 track:LeftLaser
-scale: [0.05, 0.5, 50]
+
 
 0:Environment
 id:SmallTrackLaneRing
@@ -51,13 +51,18 @@ scale: [10,10,10]
 0:Environment
 id:Construction
 lookupmethod:Contains
-active: false
+active:false
 
 0:Environment
 id:BackColumns
 lookupmethod:Contains
 position:[0,0,75]
 localrotation: [180,0,0] 
+
+0:Environment
+id:Floor
+lookupmethod:Contains
+active:false
 
 #end environment
 
@@ -70,7 +75,7 @@ deltascale:Random(0.1,0.5)
 repeat:576
 repeataddtime:0.5
 duration: 5
-AnimateColor: [1,0,0,0,0], [1,0,1,0,0.2], [0,0,1,0,0.4],[1,0,0,0,0.6], [1,0,1,0,0.8], [0,0,1,0,1]
+AnimateColor: [1,0,0,0.2,0], [1,0,1,0.2,0.2], [0,0,1,0.2,0.4],[1,0,0,0.2,0.6], [1,0,1,0.2,0.8], [0,0,1,0.2,1]
 animatedissolve: [0,0],[1,0.2],[1,0.8],[0,1]
 thicc: 12
 deltaposition:[0,0,Random(5,60)]
@@ -82,7 +87,7 @@ deltascale:Random(0.1,0.5)
 repeat:576
 repeataddtime:0.5
 duration: 5
-AnimateColor: [1,0,0,0,0], [1,0,1,0,0.2], [0,0,1,0,0.4],[1,0,0,0,0.6], [1,0,1,0,0.8], [0,0,1,0,1]
+AnimateColor: [1,0,0,0.2,0], [1,0,1,0.2,0.2], [0,0,1,0.2,0.4],[1,0,0,0.2,0.6], [1,0,1,0.2,0.8], [0,0,1,0.2,1]
 animatedissolve: [0,0],[1,0.2],[1,0.8],[0,1]
 thicc:12
 deltaposition:[0,0,Random(5,60)]
@@ -370,7 +375,7 @@ deltascale:Random(0.1,0.5)
 repeat:198
 repeataddtime:0.5
 duration: 5
-AnimateColor: [1,0,0,0,0], [1,0,1,0,0.2], [0,0,1,0,0.4],[1,0,0,0,0.6], [1,0,1,0,0.8], [0,0,1,0,1]
+AnimateColor: [1,0,0,0.2,0], [1,0,1,0.2,0.2], [0,0,1,0.2,0.4],[1,0,0,0.2,0.6], [1,0,1,0.2,0.8], [0,0,1,0.2,1]
 animatedissolve: [0,0],[1,0.2],[1,0.8],[0,1]
 thicc: 12
 deltaposition:[0,0,Random(5,60)]
@@ -382,7 +387,7 @@ deltascale:Random(0.1,0.5)
 repeat:198
 repeataddtime:0.5
 duration: 5
-AnimateColor: [1,0,0,0,0], [1,0,1,0,0.2], [0,0,1,0,0.4],[1,0,0,0,0.6], [1,0,1,0,0.8], [0,0,1,0,1]
+AnimateColor: [1,0,0,0.2,0], [1,0,1,0.2,0.2], [0,0,1,0.2,0.4],[1,0,0,0.2,0.6], [1,0,1,0.2,0.8], [0,0,1,0.2,1]
 animatedissolve: [0,0],[1,0.2],[1,0.8],[0,1]
 thicc:12
 deltaposition:[0,0,Random(5,60)]
