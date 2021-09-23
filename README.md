@@ -1,7 +1,7 @@
 # Links To Corresponding Maps
 No maps have been posted as of yet.
 ## Status of Maps
-* [Industry Baby](https://youtu.be/UTHLKHL_whs) - Ready to be posted, waiting on Noodle Extensions to be released. Some tweaks may be made until release...
+* [Industry Baby](https://youtu.be/UTHLKHL_whs) - Posted, broken due to 1.17 Chroma
 # Resources for Noodle Maps
 * [Scuffed Walls](https://github.com/thelightdesigner/ScuffedWalls)
 * [Noodle Extensions Docs](https://github.com/Aeroluna/NoodleExtensions)
